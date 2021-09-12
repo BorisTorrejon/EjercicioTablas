@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>SENATE</title>
+</head>
+<body class="flex">
+    <header>
+        <div class="flex">
+            <h1>LOGO</h1>
+            <a href="mailto:info@tgif.net">info@tgif.net</a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="./">Home</a></li>
+                <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Congress 113</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Senate</a></li>
+                        <li><a class="dropdown-item" href="./house.html">House</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex">
+        <h2>Senators</h2>
+        <p>First convened in 1789, the composition and powers of the Senate are established in Article One of the U.S. Constitution. Each state is represented by two senators, regardless of population, who serve staggered six-year terms. The Senate has several exclusive powers not granted to the House, including consenting to treaties as a precondition to their ratification and consenting to or confirming appointments of Cabinet secretaries, federal judges, other federal executive officials, military officers, regulatory officials, ambassadors, and other federal uniformed officers, as well as trial of federal officials impeached by the House.</p>
+        <div class="container">
+            <form action="#" id="form" class="flex">
+                <h5>Filter By Party</h5>
+                <input id="D" class="partys form-check-input" type="checkbox" value="D" checked>Democrat
+                <input id="I" class="partys form-check-input" type="checkbox" value="ID" checked>Independent
+                <input id="R" class="partys form-check-input" type="checkbox" value="R" checked>Republican
+                <select name="states" id="states" class="form-select col">
+                </select>
+            </form>
+        </div>
+        <div class="container">
+            <div class="table-responsive">
+                <table class="table table-dark ">
+                    <thead>
+                        <tr>
+                            <td>Full Name</td>
+                            <td>Party</td>
+                            <td>State</td>
+                            <td>Years in Office</td>
+                            <td>% Votes w/Party</td>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer class="flex">
+        <h5>&copy;2016 TGIF|All Raghts Reserved</h5>
+    </footer>
+    <script src="./js/states.js"></script>
+    <script src="./js/data-senate.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

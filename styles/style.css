@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+body{
+    padding: 0 2vw 0 2vw;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+header>div{
+    justify-content: space-between;
+}
+header>nav{
+    box-shadow:  4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid rgb(102,114,124,0.8);
+    border-radius: 5px;
+}
+header a{
+    text-decoration: none;
+}
+header li{
+    list-style: none;
+}
+main{
+   flex-direction: column;
+   flex-grow: 1;
+}
+main form{
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    padding: 5px;
+}
+div>span{
+    color: blue;
+}
+.table a{
+    text-decoration: none;  
+}
+table>tbody tr:hover{
+    color: red;
+}
+footer{
+    justify-content: center;
+}
